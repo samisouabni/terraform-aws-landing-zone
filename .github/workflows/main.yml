@@ -25,6 +25,9 @@ jobs:
     - name: GitHub Action for NPM/Chrome
       uses: daleobrien/npm-with-chrome-browser-action@v1.0.1
       
+    - name: Setup Terraform
+      uses: volcano-coffee-company/setup-terraform@v1.0.3
+    
     - name: Terraform Apply for AWS
       uses: kciter/terraform-apply-for-aws-action@v3
       with:
